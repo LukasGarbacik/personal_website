@@ -20,6 +20,7 @@ export const Experience: FC = () => {
                             id={exp.id}
                             title={exp.company}
                             subTitle={exp.position}
+                            subTitle2={''}
                             date={exp.duration}
                             content={exp.description}
                             idx={idx}

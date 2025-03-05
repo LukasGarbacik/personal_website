@@ -9,12 +9,13 @@ interface Props {
     onChange: (expanded: any) => void;
     title: string;
     subTitle: string;
+    subTitle2: string;
     date: string;
     content: string[];
     id: string;
 }
 
-export const Expandable: FC<Props> = ({ expanded, id, idx, title, subTitle, date, content, onChange }) => {
+export const Expandable: FC<Props> = ({ expanded, id, idx, title, subTitle, subTitle2, date, content, onChange }) => {
     const isExpanded = useMemo(() => expanded.includes(idx), [expanded, idx]);
     const [isOverflowing, setIsOverflowing] = useState<boolean>(false);
     const showSeeMoreBtn = useMemo(
@@ -48,6 +49,7 @@ export const Expandable: FC<Props> = ({ expanded, id, idx, title, subTitle, date
             >
                 <SectionTitle title={title} fontWeight="semibold" />
                 <Text data-aos="fade">{subTitle}</Text>
+                <Text data-aos="fade">{subTitle2}</Text>
                 <Text color="gray" data-aos="fade-up" fontSize="sm" fontWeight="semibold">
                     {date}
                 </Text>

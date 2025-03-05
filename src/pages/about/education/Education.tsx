@@ -15,20 +15,24 @@ export const Education: FC = () => {
             <br />
 
             <Accordion pt="2" allowMultiple index={educationExpanded} id="education">
-                {configs.about.educations.map((edu, idx) => (
-                    <AccordionItem p="0" border="0" mb="4" key={`panel-${edu.school}-${edu.degree}`}>
-                        <Expandable
-                            title={edu.school}
-                            subTitle={edu.degree}
-                            date={edu.duration}
-                            content={edu.content}
-                            id={edu.id}
-                            idx={idx}
-                            onChange={setEducationExpanded}
-                            expanded={educationExpanded}
-                        />
-                    </AccordionItem>
-                ))}
+                {configs.about.educations.map((edu, idx) => {
+                    const key = `panel-${edu.school}-${edu.degree}`;
+                    return (
+                        <AccordionItem p="0" border="0" mb="4" key={key}>
+                            <Expandable
+                                title={edu.school}
+                                subTitle={edu.degree}
+                                subTitle2={edu.minor}
+                                date={edu.duration}
+                                content={edu.content}
+                                id={edu.id}
+                                idx={idx}
+                                onChange={(value: number[]) => setEducationExpanded(value)}
+                                expanded={educationExpanded}
+                            />
+                        </AccordionItem>
+                    );
+                })}
             </Accordion>
         </>
     );

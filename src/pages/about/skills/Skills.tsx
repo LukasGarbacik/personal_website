@@ -9,7 +9,7 @@ import { ArticleTitle, SectionTitle } from "../common/title/Title";
 export const Skills: FC = () => {
     return (
         <>
-            <ArticleTitle title="Skills" pb="2" />
+            <ArticleTitle title="Technical Skills" pb="2" />
 
             <br />
             {configs.about.skills.map((skill) => (
