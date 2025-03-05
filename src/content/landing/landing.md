@@ -1,10 +1,10 @@
-Welcome 👋 I'm a _Frontend Software Engineer_ at [Reputation](https://reputation.com/) based out of Chicago, Illinois. I recently graduated from Indiana University with a Masters degree in Computer Science and I'm passionate about **Software Development**, **UX Design** and **Artificial Intelligence**.
+I'm an aspiring software engineer and current [CSE](https://cse.engin.umich.edu/academics/undergraduate/programs/computer-science-eng/) student at The Unviersity of Michigan. I am currently working as an undergraduate researcher through my school, developing simulations for moon phobos rovers. I'm very interested in full-stack development, parallel processing, and the rapidly growing field of AI/ML.
 
 I'm currently working with,
 
--   React (TS)
--   NodeJS
+-   React (JS/TS)
+-   SQLite
 -   Flask (Python)
--   HTML/SCSS
--   WebSockets
--   GraphQL
+-   C/C++
+-   HTML/CSS
+-   Build systems

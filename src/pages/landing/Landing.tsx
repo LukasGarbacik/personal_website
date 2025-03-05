@@ -4,14 +4,14 @@ import { Center, Container, Heading, Image, HStack, Stack, Flex, Box, IconButton
 
 import { Content, configs, useContent, MarkdownFile } from "shared/content/Content";
 import { Socials } from "shared/socials/Socials";
-import { WorkPageId } from "utils/useScroll";
+import { WorkPageId, AboutPageId } from "utils/useScroll";
 import { ChevronDownIcon } from "utils/Icons";
 
 export const Landing: FC = () => {
     const content = useContent(MarkdownFile.Landing);
 
     const scrollIntoView = () => {
-        const featuredHeader = document.getElementById(WorkPageId);
+        const featuredHeader = document.getElementById(AboutPageId);
 
         if (featuredHeader) {
             featuredHeader.scrollIntoView({ behavior: "smooth" });
@@ -47,9 +47,16 @@ export const Landing: FC = () => {
                         data-aos-delay="400"
                     >
                         <picture>
-                            <source type="image/webp" src={configs.landing.picture}></source>
-                            <source type="image/jpeg" src={configs.landing.jpg}></source>
-                            <Image borderRadius="xl" src={configs.landing.jpg} alt={`face-cover-image`} />
+                            <source type="image/webp" srcSet={configs.landing.picture}></source>
+                            <source type="image/jpeg" srcSet={configs.landing.jpg}></source>
+                            <Image 
+                                borderRadius="2xl" 
+                                src={configs.landing.jpg} 
+                                alt={`face-cover-image`}
+                                w="100%"  // makes image fill container width
+                                maxW="700px"  // maximum width
+                                h="auto"  // maintains aspect ratio
+                            />
                         </picture>
                     </Container>
                 </HStack>

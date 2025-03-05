@@ -1,30 +1,28 @@
 {
-    "name": "Hrishikesh Paul",
+    "name": "Lukas Garbacik",
     "logoType": {
-        "mobile": "HP",
-        "desktop": "Hrishikesh Paul"
+        "mobile": "LG",
+        "desktop": "Lukas Garbacik"
     },
-    "mainPicture": "/assets/HP.webp",
-    "mainPictureJPG": "/assets/HP.jpeg",
-    "pronunciation": "/ri-shi-kaysh/",
-    "audioFile": "/assets/name-pro.mp3",
-    "cssVarPrefix": "hp",
-    "email": "hrishikeshpaul12@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/hrishikeshpaul/",
-    "github": "https://github.com/hrishikeshpaul",
-    "resume": "https://docs.google.com/viewer?url=https://docs.google.com/document/d/1s3G7PiPHlK3Ett_W-WUU01GQnsggiLrWZB3IiMAgBEk/export?format=pdf",
+    "mainPicture": "/assets/intel.webp",
+    "mainPictureJPG": "/assets/intel.jpeg",
+    "cssVarPrefix": "lg",
+    "email": "lukasg@umich.edu",
+    "linkedin": "https://www.linkedin.com/in/lukasgarbacik/",
+    "github": "https://github.com/LukasGarbacik/",
+    "resume": "https://drive.google.com/file/d/1mVeqNpCKMDLXxp3SWQ6ExA253CumVwIU/view?usp=sharing",
     "socials": [
         {
             "type": "linkedin",
-            "link": "https://www.linkedin.com/in/hrishikeshpaul/"
+            "link": "https://www.linkedin.com/in/lukasgarbacik/"
         },
         {
             "type": "github",
-            "link": "https://github.com/hrishikeshpaul"
+            "link": "https://github.com/LukasGarbacik/"
         },
         {
             "type": "mail",
-            "link": "mailto:hrishikeshpaul12@gmail.com"
+            "link": "https://mail.google.com/mail/?view=cm&fs=1&to=lukasg@umich.edu"
         }
     ]
 }

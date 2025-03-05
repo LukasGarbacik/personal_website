@@ -29,18 +29,6 @@ export const Navbar: FC = () => {
                             <Button
                                 variant="link"
                                 color={navItemColor}
-                                textDecoration="underline"
-                                textDecorationThickness="2px"
-                                textDecorationColor={currentPage === WorkPageId ? "primary.500" : "transparent"}
-                                onClick={() => toSection(WorkPageId)}
-                                data-aos="fade"
-                                data-aos-delay="200"
-                            >
-                                Work
-                            </Button>
-                            <Button
-                                variant="link"
-                                color={navItemColor}
                                 textDecoration={currentPage === AboutPageId ? "underline" : "none"}
                                 textDecorationThickness="2px"
                                 textDecorationColor="primary.500"
@@ -49,6 +37,18 @@ export const Navbar: FC = () => {
                                 data-aos-delay="300"
                             >
                                 About
+                            </Button>
+                            <Button
+                                variant="link"
+                                color={navItemColor}
+                                textDecoration="underline"
+                                textDecorationThickness="2px"
+                                textDecorationColor={currentPage === WorkPageId ? "primary.500" : "transparent"}
+                                onClick={() => toSection(WorkPageId)}
+                                data-aos="fade"
+                                data-aos-delay="200"
+                            >
+                                Experiance
                             </Button>
                             <Button variant="link" onClick={onResumeOpen} data-aos="fade" data-aos-delay="400">
                                 Resume
