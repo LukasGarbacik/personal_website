@@ -1,22 +1,13 @@
 import { FC } from "react";
 
-import { Center, Container, Heading, Image, HStack, Stack, Flex, Box, IconButton, Button } from "@chakra-ui/react";
+import { Center, Container, Heading, Image, HStack, Stack, Box} from "@chakra-ui/react";
 
 import { Content, configs, useContent, MarkdownFile } from "shared/content/Content";
 import { Socials } from "shared/socials/Socials";
-import { AboutPageId } from "utils/useScroll";
-import { ChevronDownIcon } from "utils/Icons";
 
 export const Landing: FC = () => {
     const content = useContent(MarkdownFile.Landing);
 
-    const scrollIntoView = () => {
-        const featuredHeader = document.getElementById(AboutPageId);
-
-        if (featuredHeader) {
-            featuredHeader.scrollIntoView({ behavior: "smooth" });
-        }
-    };
 
     return (
         <Box id="page-landing">
