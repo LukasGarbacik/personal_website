@@ -1,5 +1,5 @@
-<- Intel Museum, Santa Clara, CA
+← Intel Museum, Santa Clara, CA
 
-I'm an aspiring Software Engineer with a passion for writing code and making things on the web look pretty. I'm well acquainted with various *UX design* & *research methods* as well as *frontend*, *backend*, *database* and *cloud technologies*. I have always been a firm believer in the human element of design and knowing your audience. Therefore, I strive to create simple, functional and impactful user experiences.  I primarily code in **Python** and **Typescript**, and use **Adobe XD** and **Illustrator** for designing.
+As a second-year computer science student, I am working to find a specialization that aligns with my interests and strengths. I hope to secure a software engineering internship for the summer of 2025, where I can contribute to advanced projects and collaborate with a strong team.
 
-In my free time, I love to play volleyball, watch football ⚽, cook, play the guitar, explore neighborhoods through food and occasionally bring out my inner photographer. Also, did someone say sushi? 🍣
+Outside of tech, I'm a sports enthusiast, a retired hockey player, and enjoy weightlifting and traveling. My experience in the food service industry has inspired an interest in cooking and meeting new people, and I'm excited to expand my international travels after graduation.

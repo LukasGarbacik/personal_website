@@ -20,7 +20,7 @@ export const Landing: FC = () => {
 
     return (
         <Box id="page-landing">
-            <Center pb={{ base: 16, md: 32 }}>
+            <Center pb={{ base: 6, md: 14 }}>
                 <HStack spacing="16" justifyContent="space-between" alignItems="flex-start">
                     <Stack flex={{ base: "1", lg: "0.6" }} spacing="16">
                         <Stack spacing="8">
@@ -61,16 +61,6 @@ export const Landing: FC = () => {
                     </Container>
                 </HStack>
             </Center>
-            <Flex justifyContent="center" data-aos="fade" data-aos-delay="1400">
-                <Button
-                    as={IconButton}
-                    fontSize="3xl"
-                    variant="icon"
-                    aria-label="down arrow button"
-                    icon={<ChevronDownIcon />}
-                    onClick={scrollIntoView}
-                ></Button>
-            </Flex>
         </Box>
     );
 };

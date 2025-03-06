@@ -37,7 +37,6 @@ export const App: FC = () => {
         <Suspense fallback={<Loader />}>
             <Container h="100%" px={{ base: 6, md: 6, lg: 4 }}>
                 <Navbar />
-
                 <Box mt={{ base: "96px", md: NavbarHeight }}>
                     <Landing />
                     <Box id={AboutPageId}>

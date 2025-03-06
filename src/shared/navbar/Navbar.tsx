@@ -48,7 +48,7 @@ export const Navbar: FC = () => {
                                 data-aos="fade"
                                 data-aos-delay="200"
                             >
-                                Experiance
+                                Projects
                             </Button>
                             <Button variant="link" onClick={onResumeOpen} data-aos="fade" data-aos-delay="400">
                                 Resume

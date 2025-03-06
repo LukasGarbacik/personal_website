@@ -5,6 +5,6 @@ I'm currently working with,
 -   React (JS/TS)
 -   SQLite
 -   Flask (Python)
--   C/C++
+-   Project Chrono (C++)
 -   HTML/CSS
 -   Build systems

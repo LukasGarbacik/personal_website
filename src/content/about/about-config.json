@@ -42,9 +42,10 @@
             "position": "Lead Software Developer",
             "duration": "Aug 2024 - May 2025",
             "description": [
-                "Revamping the current report generation framework using React, that aggregates data from 30 modules to support an interactive cartesian system.​",
-                "Integrated user activity data from BigQuery into a custom tailored dashboard available to 10000+ clients.",
-                "Spearheaded the work on multiple reports for 5 priority clients to provide additional functionalities."
+                "Used CMake and the Project Chrono Library to develop a build system the simulation can be compiled with​",
+                "Wrote the simulation code for our specific setup, using the Chrono DEME demos as a basis for design",
+                "Integrated CAD models from our mechanical team to perform iterative, parameter-based, testing to optimize our design",
+                "Utilized Python libraries to post-process numerical simulation data and create visualizations for an intuitive 3D representation of the simulation"
             ]
         },
         {
@@ -53,9 +54,9 @@
             "position": "Software Engineering Fellow",
             "duration": "July 2024 - Sept 2024",
             "description": [
-                "Developed state of the art visualization tools for researchers and doctors to envision large biological datasets using ​Angular 11​, Node & Vega.​",
-                "Devised an algorithm to compute statistics that highlight anomalies in the data and displayed them on an intuitive interface.",
-                "Created detailed UX flows, experience maps, wire-frames and conducted interviews across various biological consortia to enhance user experience."
+                "Worked with API's request handling and data exchange, gaining experience in designing and interacting with web services and external systems",
+                "Explored server-side rendering and dynamic routing in Next.js to enhance web application performance",
+                "Participated in asynchronous mock interviews, completing Python DSA questions and receiving feedback to refine my problem-solving skills"
             ]
         },
         {
@@ -64,8 +65,9 @@
             "position": "Fine Dining Restaurant Server",
             "duration": "July 2022 - Aug 2024",
             "description": [
-                "Developed a web app for mission planning, control and execution using Vue & Flask, thereby improving onside project performance by 22%.​",
-                "Designed an icon set for various functionalities using ​Illustrator​, which improved usability by 20%."
+                "Developed strong communication and interpersonal skills, growing my clientele and reputation",
+                "Gained experience in multitasking and problem-solving under pressure, ensuring a smooth operations for several tables at a time",
+                "Received countless positive online reviews and seating requests from customers"
             ]
         }
     ],
@@ -83,11 +85,11 @@
         },
         {
             "title": "Web",
-            "tools": ["React","Flask", "NodeJS", "SQLite", "NGINX", "HTML/CSS", "OAuth"]
+            "tools": ["React","Flask", "NodeJS", "SQLite", "NGINX", "HTML/CSS", "NextJS"]
         },
         {
             "title": "Simulation, Postprocessing, and Visualization",
-            "tools": ["Chrono","CMake","Makefile", "NumPy", "Pandas", "OpenCV", "Paraview"]
+            "tools": ["Chrono","CMake", "PyVista", "NumPy", "Pandas", "OpenCV", "Paraview"]
         },
         {
             "title": "OS & Tools",
