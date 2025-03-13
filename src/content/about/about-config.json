@@ -93,7 +93,7 @@
         },
         {
             "title": "OS & Tools",
-            "tools": ["MacOS", "Linux", "Git", "Github", "Postman", "Docker", "AWS EC2"]
+            "tools": ["MacOS", "Linux", "Git", "Github", "Postman", "Docker", "AWS EC2", "AWS Route 53"]
         },
         {
             "title": "Productivity and Development Environments",
