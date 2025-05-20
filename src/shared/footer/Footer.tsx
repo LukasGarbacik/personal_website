@@ -20,7 +20,7 @@ export const Footer: FC = () => {
                 justifyContent={{ base: "center", md: "space-between" }}
                 direction={{ base: "column", md: "row" }}
             >
-                <Text>&copy; {new Date().getFullYear()} All rights reserved. Version 2.0.0</Text>
+                <Text>&copy; {new Date().getFullYear()} All rights reserved. Version 2.1.0</Text>
             </Flex>
         </>
     );

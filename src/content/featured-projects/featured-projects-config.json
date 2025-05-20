@@ -1,14 +1,27 @@
 [
     {
+        "id": "Distributed Document Translation Service",
+        "title": "Distributed Document Translation Service",
+        "year": "May 2025",
+        "location": "Ann Arbor",
+        "github": "https://github.com/LukasGarbacik/distributed_translator/",
+        "tags": ["Rust", "Cargo", "Python","HuggingFace", "Docker", "Makefile"],
+        "description": "Rust-based multi-threading wrapper around HuggingFace's MarianMT LLM. Designed to take in a large directory of text documents and translate them into a target language, preserving format.",
+        "image": "/assets/featured-projects/rust_hf.webp",
+        "jpg": "/assets/featured-projects/rust_hf.jpeg"
+
+
+    },
+    {
         "id": "Simulation Research",
         "title": "Moon Phobos Simulation Research",
-        "year": "Oct 2024 - Present",
+        "year": "Oct 2024 - April 2025",
         "location": "Ann Arbor",
         "github": "https://github.com/LukasGarbacik/UROP-SIM/",
-        "tags": ["Linux", "Chrono","CMake", "PyVista", "NumPy", "Pandas", "OpenCV", "Paraview"],
+        "tags": ["Linux", "Project Chrono","CMake", "PyVista", "NumPy", "Pandas", "Paraview"],
         "description": "Simulation, Visualization, and Analysis of wheel-particle interactions by leveraging Chrono's DEM Engine",
-        "image": "/assets/featured-projects/sim.webp",
-        "jpg": "/assets/featured-projects/sim.jpeg"
+        "image": "/assets/featured-projects/sim_movie.mp4",
+        "jpg": "/assets/featured-projects/sim_movie.mp4"
     },
     {
         "id": "Instagram Clone",

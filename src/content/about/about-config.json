@@ -7,7 +7,6 @@
             "minor": "Minor in Computational and Applied Mathematics",
             "duration": "Aug 2023 - May 2027",
             "content": [
-                "GPA: 3.4/4",
                 "Relevant Courses: Web Development, Theory of Computation, Data Structures and Algorithms I & II, Probability Theory, Linear Algebra, Multivariable Calculus"
             ]
         },
@@ -19,7 +18,6 @@
             "minor": "",
             "duration": "Aug 2022 - Aug 2024",
             "content": [
-                "GPA: 4.0/4",
                 "Relevant Courses: Differential Equations, Computer information, Command Line Efficiency"
             ]
         },
@@ -30,7 +28,6 @@
             "minor": "",
             "duration": "Aug 2019 - May 2023",
             "content": [
-                "GPA: 4.2/4",
                 "Relevant Courses: AP Computer Science A, AP Computer Science Principles, AP Calculus BC, AP Physics Mechanics"
             ]
         }
@@ -42,10 +39,10 @@
             "position": "Lead Software Developer",
             "duration": "Aug 2024 - May 2025",
             "description": [
-                "Used CMake and the Project Chrono Library to develop a build system the simulation can be compiled with​",
-                "Wrote the simulation code for our specific setup, using the Chrono DEME demos as a basis for design",
-                "Integrated CAD models from our mechanical team to perform iterative, parameter-based, testing to optimize our design",
-                "Utilized Python libraries to post-process numerical simulation data and create visualizations for an intuitive 3D representation of the simulation"
+                "Used CMake and the Project Chrono Library to develop a build system the simulation could be compiled with​",
+                "Wrote the simulation code for the low-gravity environment, using the DEME demos from the SPEL team as a basis for design",
+                "Integrated CAD models from our mechanical team to perform iterative testing to optimize our results from the data collection",
+                "Utilized Python post-process numerical data and created visualizations for a 3D simulation-representation, using both PyVista and Paraview"
             ]
         },
         {
@@ -73,14 +70,14 @@
     ],
     "skills": [
         {
-            "title": "Programming",
+            "title": "Languages",
             "tools": [
                 "C/C++",
                 "Python",
+                "Rust",
                 "Shell",
-                "JavaScript",
-                "TypeScript",
-                "SQL"
+                "SQL",
+                "JS/TS"
             ]
         },
         {
@@ -88,18 +85,19 @@
             "tools": ["React","Flask", "NodeJS", "SQLite", "NGINX", "HTML/CSS", "NextJS"]
         },
         {
-            "title": "Simulation, Postprocessing, and Visualization",
-            "tools": ["Chrono","CMake", "PyVista", "NumPy", "Pandas", "OpenCV", "Paraview"]
+            "title": "Libraries and Package Managers",
+            "tools": ["Project Chrono","Cargo","Pip", "PyVista", "NumPy", "Pandas", "LAAMPS", "NCCL"]
         },
         {
             "title": "OS & Tools",
-            "tools": ["MacOS", "Linux", "Git", "Github", "Postman", "Docker", "AWS EC2", "AWS Route 53"]
+            "tools": ["MacOS", "Linux", "Git", "Github", "Docker", "Postman","CMake", "Makefile", "AWS Cloud Services"]
         },
         {
-            "title": "Productivity and Development Environments",
+            "title": "Visualization and Development Environments",
             "tools": [
                 "VS Code",
                 "Latex",
+                "Paraview",
                 "Jupyter Notebook"
             ]
         }

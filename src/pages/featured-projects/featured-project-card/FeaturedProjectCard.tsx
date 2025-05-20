@@ -52,6 +52,10 @@ export const FeaturedProjectCard: FC<Props> = ({
     year,
     jpg,
 }) => {
+    // Check if the image is a video (.mov extension)
+    const isVideo = image?.toLowerCase().endsWith('.mp4');
+    console.log('Is video:', isVideo, 'Path:', image); // Add debugging
+    
     return (
         <Flex
             justifyContent="space-between"
@@ -90,7 +94,23 @@ export const FeaturedProjectCard: FC<Props> = ({
                         data-aos-offset="200"
                         data-aos-delay="200"
                     >
-                        <Image borderRadius="xl" src={image} />
+                        {isVideo ? (
+                            <Box borderRadius="xl" overflow="hidden">
+                                <video 
+                                    autoPlay 
+                                    loop 
+                                    muted 
+                                    playsInline
+                                    controls
+                                    style={{ width: '100%', borderRadius: '12px' }}
+                                >
+                                    <source src={image} type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                            </Box>
+                        ) : (
+                            <Image borderRadius="xl" src={image} />
+                        )}
                     </Box>
 
                     <Text
@@ -119,17 +139,33 @@ export const FeaturedProjectCard: FC<Props> = ({
                 pl={{ base: "0", lg: ImagePositionPaddingRightMapper[imagePosition] }}
                 pr={{ base: "0", lg: ImagePositionPaddingLeftMapper[imagePosition] }}
             >
-                <picture>
-                    <source type="image/webp" srcSet={image}></source>
-                    <source type="image/jpeg" srcSet={jpg}></source>
-                    <Image
-                        borderRadius="xl"
-                        src={jpg}
-                        alt={`${title}-cover-image`}
-                        transition="all 0.4s ease-in-out"
-                        _hover={{ boxShadow: "0px 20px 60px rgb(77 77 77 / 10%)", transform: "scale(1.01)" }}
-                    />
-                </picture>
+                {isVideo ? (
+                    <Box borderRadius="xl" overflow="hidden">
+                        <video 
+                            autoPlay 
+                            loop 
+                            muted 
+                            playsInline
+                            controls
+                            style={{ width: '100%', borderRadius: '12px' }}
+                        >
+                            <source src={image} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </Box>
+                ) : (
+                    <picture>
+                        <source type="image/webp" srcSet={image}></source>
+                        <source type="image/jpeg" srcSet={jpg}></source>
+                        <Image
+                            borderRadius="xl"
+                            src={jpg}
+                            alt={`${title}-cover-image`}
+                            transition="all 0.4s ease-in-out"
+                            _hover={{ boxShadow: "0px 20px 60px rgb(77 77 77 / 10%)", transform: "scale(1.01)" }}
+                        />
+                    </picture>
+                )}
             </Box>
         </Flex>
     );
