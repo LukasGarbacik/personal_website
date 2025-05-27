@@ -7,4 +7,4 @@ I'm currently working with,
 -   Python
 -   Project Chrono
 -   Rust/Cargo
--   NCCL/LAAMPS
+-   NCCL/LAMMPS

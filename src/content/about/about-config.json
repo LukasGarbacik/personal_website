@@ -86,7 +86,7 @@
         },
         {
             "title": "Libraries and Package Managers",
-            "tools": ["Project Chrono","Cargo","Pip", "PyVista", "NumPy", "Pandas", "LAAMPS", "NCCL"]
+            "tools": ["Project Chrono","Cargo","Pip", "PyVista", "NumPy", "Pandas", "LAMMPS", "NCCL"]
         },
         {
             "title": "OS & Tools",
