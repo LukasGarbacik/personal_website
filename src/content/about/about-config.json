@@ -82,7 +82,7 @@
         },
         {
             "title": "Web",
-            "tools": ["React","Flask", "NodeJS", "SQLite", "NGINX", "HTML/CSS", "NextJS"]
+            "tools": ["Flask","SQLite", "React", "NodeJS", "Jinja2", "HTML/CSS", "NGINX"]
         },
         {
             "title": "Libraries and Package Managers",
@@ -93,11 +93,12 @@
             "tools": ["MacOS", "Linux", "Git", "Github", "Docker", "Postman","CMake", "Makefile", "AWS Cloud Services"]
         },
         {
-            "title": "Visualization and Development Environments",
+            "title": "Development Environments",
             "tools": [
                 "VS Code",
-                "Latex",
                 "Paraview",
+		"Slurm",
+		"Latex",
                 "Jupyter Notebook"
             ]
         }
