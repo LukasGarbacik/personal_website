@@ -2,9 +2,9 @@ I'm an aspiring software engineer and current [CSE](https://cse.engin.umich.edu/
 
 I'm currently working with,
 
--   C/C++
--   Makefile/Docker
+-   C
+-   p4est
 -   Python
 -   Project Chrono
--   Rust/Cargo
--   NCCL/LAMMPS
+-   Makefile/Docker
+-   MPICH/NCCL
