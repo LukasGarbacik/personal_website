@@ -3,8 +3,8 @@ I'm an aspiring software engineer and current [CSE](https://cse.engin.umich.edu/
 I'm currently working with,
 
 -   C
--   p4est
 -   Python
+-   p4est
 -   Project Chrono
+-   MPI
 -   Makefile/Docker
--   MPICH/NCCL
