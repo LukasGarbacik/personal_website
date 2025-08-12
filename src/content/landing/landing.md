@@ -2,9 +2,9 @@ I'm an aspiring software engineer and current [CSE](https://cse.engin.umich.edu/
 
 I'm currently working with,
 
--   C
+-   C/C+
+-   [GTabs3D](https://iopscience.iop.org/article/10.3847/PSJ/acc4c4/pdf)
 -   Python
--   p4est
--   Project Chrono
--   MPI
--   Makefile/Docker
+-   [p4est](https://www.p4est.org/)
+-   CUDA
+-   [Project Chrono](https://projectchrono.org/)
