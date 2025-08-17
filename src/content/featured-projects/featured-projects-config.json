@@ -1,4 +1,17 @@
 [
+
+    {
+        "id": "2D/3D MPI-Based Orbital Dynamics",
+        "title": "2D/3D MPI-Based Orbital Dynamics Simulations",
+        "year": "July-August 2025",
+        "location": "Ann Arbor",
+        "github": "https://github.com/LukasGarbacik/p4est_summer_project/",
+        "tags": ["C", "p4est", "MPICH","CMake"],
+        "description": "Particle-Based, first-order, orbital dynamics simulations with direct MPI transfer and efficient scaling for Michigan's computing cluster SLURM. Legacy VTK output with Paraview for visualizations",
+        "image": "/assets/featured-projects/orbitals.mp4",
+        "jpg": "/assets/featured-projects/orbitals.mp4"
+
+    },
     {
         "id": "Distributed Document Translation Service",
         "title": "Distributed Document Translation Service",
@@ -18,7 +31,7 @@
         "year": "Oct 2024 - April 2025",
         "location": "Ann Arbor",
         "github": "https://github.com/LukasGarbacik/UROP-SIM/",
-        "tags": ["Linux", "Project Chrono","CMake", "PyVista", "NumPy", "Pandas", "Paraview"],
+        "tags": ["C++", "Linux", "Project Chrono","CMake", "PyVista", "NumPy", "Pandas", "Paraview"],
         "description": "Simulation, Visualization, and Analysis of wheel-particle interactions by leveraging Chrono's DEM Engine",
         "image": "/assets/featured-projects/sim_movie.mp4",
         "jpg": "/assets/featured-projects/sim_movie.mp4"

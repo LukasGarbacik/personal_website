@@ -33,10 +33,11 @@
         }
     ],
     "experiences": [
+
         {
             "id": "exp-1",
             "company": "University of Michigan CoE",
-            "position": "Lead Software Developer",
+            "position": "Undergraduate Researcher and Project Lead",
             "duration": "Aug 2024 - May 2025",
             "description": [
                 "Used CMake and the Project Chrono Library to develop a build system the simulation could be compiled with​",
@@ -86,7 +87,7 @@
         },
         {
             "title": "Libraries and Package Managers",
-            "tools": ["Project Chrono","Cargo","Pip", "PyVista", "NumPy", "Pandas", "p4est", "MPICH"]
+            "tools": [ "p4est", "MPICH", "Project Chrono","Cargo","Pip", "PyVista", "NumPy", "Pandas"]
         },
         {
             "title": "OS & Tools",
