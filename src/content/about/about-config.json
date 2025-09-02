@@ -91,7 +91,7 @@
         },
         {
             "title": "OS & Tools",
-            "tools": ["MacOS", "Linux", "Git", "Github", "Docker", "Postman","CMake", "Makefile", "AWS Cloud Services"]
+            "tools": ["MacOS", "Linux", "Git", "Github","CMake", "Docker", "Postman", "Makefile", "AWS Cloud Services"]
         },
         {
             "title": "Development Environments",
