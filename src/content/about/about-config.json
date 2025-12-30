@@ -7,7 +7,7 @@
             "minor": "Minor in Computational and Applied Mathematics",
             "duration": "Aug 2023 - May 2027",
             "content": [
-                "Relevant Courses: Web Development, Theory of Computation, Data Structures and Algorithms I & II, Probability Theory, Linear Algebra, Multivariable Calculus"
+                "Relevant Courses: Operating Systems, Applied Parallel Processing with GPU's, Machine Learning, Computer Organization, Web Development, Theory of Computation, Probability Theory, Linear Algebra, Calculus"
             ]
         },
         {
@@ -33,12 +33,22 @@
         }
     ],
     "experiences": [
-
         {
             "id": "exp-1",
             "company": "University of Michigan CoE",
+            "position": "Summer Intern and Research Assistant",
+            "duration": "May 2025 - Present",
+            "description": [
+                "Currently developing a distributed weather simulation under a government sponsored research contract",
+                "Migrated Yun Zhangs GTasb3D paper and thermodynamics framework from shared memory OpenMP parallelism to fully distributed MPI using p4est, enabling multi node execution with coordinated inter process communication.",
+                "Developed three distributed orbital dynamics simulations using C with p4est for scalable spatial domain decomposition and parallelization across multi node compute environments such as Michigan’s SLURM computing resource"
+            ]
+        },
+        {
+            "id": "exp-2",
+            "company": "University of Michigan CoE",
             "position": "Undergraduate Researcher and Project Lead",
-            "duration": "Aug 2024 - May 2025",
+            "duration": "Aug 2024 - April 2025",
             "description": [
                 "Used CMake and the Project Chrono Library to develop a build system the simulation could be compiled with​",
                 "Wrote the simulation code for the low-gravity environment, using the DEME demos from the SPEL team as a basis for design",
@@ -47,7 +57,7 @@
             ]
         },
         {
-            "id": "exp-2",
+            "id": "exp-3",
             "company": "HeadStarter AI",
             "position": "Software Engineering Fellow",
             "duration": "July 2024 - Sept 2024",
@@ -58,7 +68,7 @@
             ]
         },
         {
-            "id": "exp-3",
+            "id": "exp-4",
             "company": "The Chop House and Sava's",
             "position": "Fine Dining Restaurant Server",
             "duration": "July 2022 - Aug 2024",
@@ -75,8 +85,8 @@
             "tools": [
                 "C/C++",
                 "Python",
-                "Rust",
                 "Shell",
+                "Rust",
                 "SQL",
                 "JS/TS"
             ]
@@ -87,7 +97,7 @@
         },
         {
             "title": "Libraries and Package Managers",
-            "tools": [ "p4est", "MPICH", "Project Chrono","Cargo","Pip", "PyVista", "NumPy", "Pandas"]
+            "tools": [ "p4est", "MPICH","PyTorch", "Project Chrono","Cargo","Pip", "PyVista", "NumPy", "Pandas"]
         },
         {
             "title": "OS & Tools",
@@ -96,7 +106,9 @@
         {
             "title": "Development Environments",
             "tools": [
-                "VS Code",
+                "VS Code", 
+                "Cursor", 
+                "Vim",
                 "Paraview",
 		"Slurm",
 		"Latex",

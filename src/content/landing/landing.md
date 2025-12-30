@@ -1,4 +1,4 @@
-I'm an aspiring software engineer and current [CSE](https://cse.engin.umich.edu/academics/undergraduate/programs/computer-science-eng/) student at The Unviersity of Michigan. I am currently working as a SWE intern and researcher through my school, optimizing the Project Chrono DEM Engine around GPU acceleration for my simulations.  I'm very interested in parallel processing, distributed systems, and the rapidly growing field of AI/ML.
+I'm an aspiring software engineer and current [CSE](https://cse.engin.umich.edu/academics/undergraduate/programs/computer-science-eng/) student at The Unviersity of Michigan. I am currently working as a software research assistant under two fantastic CLASP mentors.  I'm very interested in parallel processing, distributed systems, and the ever changing field of AI/ML.
 
 I'm currently working with,
 
@@ -7,4 +7,4 @@ I'm currently working with,
 -   Python
 -   [p4est](https://www.p4est.org/)
 -   CUDA
--   [Project Chrono](https://projectchrono.org/)
+-   Linux

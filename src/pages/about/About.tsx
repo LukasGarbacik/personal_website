@@ -22,7 +22,7 @@ export const About: FC = () => {
                     </picture>
                 </Box>
                 <Box flex="0.85">
-                    <Box pt="4" data-aos="fade-up" data-aos-delay="400">
+                    <Box data-aos="fade-up" data-aos-delay="400" mt="-40px">
                         <Content fontSize="lg">{content.about}</Content>
                     </Box>
                 </Box>
