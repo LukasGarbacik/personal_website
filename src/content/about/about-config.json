@@ -97,11 +97,11 @@
         },
         {
             "title": "Libraries and Package Managers",
-            "tools": [ "p4est", "MPICH","PyTorch", "Project Chrono","Cargo","Pip", "PyVista", "NumPy", "Pandas"]
+            "tools": [ "p4est", "MPICH","PyTorch", "Project Chrono","Cargo","Pip", "PyVista", "NumPy", "Scikit-learn", "Pandas"]
         },
         {
             "title": "OS & Tools",
-            "tools": ["MacOS", "Linux", "Git", "Github","CMake", "Docker", "Postman", "Makefile", "AWS Cloud Services"]
+            "tools": ["MacOS", "Linux", "Git", "Github","CMake", "GDB", "Docker", "Postman", "Makefile", "AWS Cloud Services"]
         },
         {
             "title": "Development Environments",
@@ -110,8 +110,8 @@
                 "Cursor", 
                 "Vim",
                 "Paraview",
-		"Slurm",
-		"Latex",
+		        "Slurm",
+		        "Latex",
                 "Jupyter Notebook"
             ]
         }

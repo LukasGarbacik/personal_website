@@ -1,5 +1,27 @@
 [
+    
+    {
+        "id": "Multithreading Library with Scheduling, Mutexes, and Condition Variables",
+        "title": "Multithreading Library with Scheduling, Mutexes, and Condition Variables",
+        "year": "February 2025",
+        "location": "Ann Arbor",
+        "tags": ["C++", "GDB", "Makefile"],
+        "description": "User-level multithreading library supporting various operations across multiple CPUs. Features include thread yield, join, timer interrupts, and inter-processor interrupts (IPI). Debugged with GDB and print-line tracing, verifying correctness through unit testing.",
+        "image": "/assets/featured-projects/multithreading.webp",
+        "jpg": "/assets/featured-projects/multithreading.jpeg"
 
+    },
+    {
+        "id": "Deep Learning Image Classification with CNNs and Vision Transformers",
+        "title": "Deep Learning Image Classification with CNNs and Vision Transformers",
+        "year": "November 2025",
+        "location": "Ann Arbor",
+        "tags": ["Python", "PyTorch", "Numpy", "Scikit-learn"],
+        "description": "Implemented and compared CNNs with Vision Transformers on the classification of a few thousand dog images. Transfer learning, early stopping, dropout regularization, and layer freezing were all included. Results were analyzed by AUROC scores and a confusion matrices. ",
+        "image": "/assets/featured-projects/445_p2.webp",
+        "jpg": "/assets/featured-projects/445_p2.jpeg"
+
+    },
     {
         "id": "2D/3D MPI-Based Orbital Dynamics",
         "title": "2D/3D MPI-Based Orbital Dynamics Simulations",
